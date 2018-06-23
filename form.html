@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cse480</title>
+</head>
+<body style="background-color: #98CC6A">
+
+	<h1 style="text-align: center; color: #6E09AB"><ins>Our First Form</ins></h1> 
+	<!--Color means only text color and background-color means not text but the display color-->
+
+	
+	<form style="font-size: 1.3em">
+
+
+		<div>
+		Name:<input type="text" id="name" maxlength="10">
+		<br>
+		Password: <input type="password" id="name" maxlength="10">
+		<br>
+		Date of Birth:<input type="date"  min="1990-07-25" max="2020-07-25">
+		<br> <br>
+		</div>
+
+		
+	   <div id= "radioDiv"> <!--Div means A new session where we will write new codes-->
+		favorite Person:
+			<br>
+		<input type="radio" name="gender" value="father">
+			Father<br>
+		<input type= "radio" name="gender" value= "mother"> <!--Last One Will Be Checked-->
+			 Mother<br> 
+		 <input type= "radio" name="gender" value= "sister" checked> 
+			Sister<br> <br>
+		</div>
+
+
+		<div>
+			Favorite Fodd?? <br>
+			<input type="checkbox" name="icecream" value="1" >Icecream
+			<input type="checkbox" name="pizza" value="2" checked>Pizza
+			<input type="checkbox" name="fuchka" value="3" >Fuchka
+            <br><br>
+		</div>
+
+
+		<div>
+			What Is Your Favorite Color?? <br>
+			<input type="color" id="" name="">
+			<br><br>
+		</div>
+
+
+		<div>
+			Write About Favorite Poem:
+			<br>
+			<textarea type="text" rows="5" cols="20">Start Writing.......</textarea>
+		</div>
+		
+		
+		<div>
+			<br>
+			<button type="button" id="">Submit Your Info</button>
+			<input type="button" name="" value="Delete">
+		</div>
+
+	</form>
+
+</body>
+</html>
